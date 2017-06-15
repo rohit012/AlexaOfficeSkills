@@ -1,0 +1,76 @@
+{
+  "intents": [
+    {
+      "intent": "TestIntent"
+    },
+    {
+      "intent": "MyIntent"
+    },
+    {
+      "intent": "AMAZON.PauseIntent"
+    },
+    {
+      "intent": "AMAZON.ResumeIntent"
+    },
+    {
+      "intent": "StartMeeting"
+    },
+    {
+      "intent": "GetNewFactIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "participantname",
+          "type": "AMAZON.LITERAL"
+        }
+      ],
+      "intent": "AddParticipant"
+    },
+    {
+      "slots": [
+        {
+          "name": "valA",
+          "type": "AMAZON.LITERAL"
+        },
+        {
+          "name": "valB",
+          "type": "AMAZON.LITERAL"
+        },
+        {
+          "name": "valC",
+          "type": "AMAZON.LITERAL"
+        },
+        {
+          "name": "valD",
+          "type": "AMAZON.LITERAL"
+        },
+        {
+          "name": "valE",
+          "type": "AMAZON.LITERAL"
+        },
+        {
+          "name": "valF",
+          "type": "AMAZON.LITERAL"
+        },
+        {
+          "name": "valG",
+          "type": "AMAZON.LITERAL"
+        },
+        {
+          "name": "valH",
+          "type": "AMAZON.LITERAL"
+        },
+        {
+          "name": "valI",
+          "type": "AMAZON.LITERAL"
+        },
+        {
+          "name": "valJ",
+          "type": "AMAZON.LITERAL"
+        }
+      ],
+      "intent": "RecordData"
+    }
+  ]
+}
