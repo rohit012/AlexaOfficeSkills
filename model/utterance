@@ -1,10 +1,6 @@
-TestIntent hello world
-TestIntent say hello world
-TestIntent to say hello world
-TestIntent say my world
-MyIntent my intent
-GetNewFactIntent new fact
+RecordData to record question {valA | valA} {valB | valB} {valC | valC} {valD | valD} {valE | valE} {valF | valF} {valG | valG} {valH | valH} {valI | valI} {valJ | valJ}
+RecordData to record new question {valA | valA} {valB | valB} {valC | valC} {valD | valD} {valE | valE} {valF | valF} {valG | valG} {valH | valH} {valI | valI} {valJ | valJ}
+
 AddParticipant add participant {participantname | participantname}
 AddParticipant add new participant {participantname | participantname}
-RecordData to record {valA | valA} {valB | valB}
-RecordData to record {valA | valA} {valB | valB} {valC | valC} {valD | valD} {valE | valE} {valF | valF} {valG | valG} {valH | valH} {valI | valI} {valJ | valJ}
+RecordData to record question {valA | valA} {valB | valB}

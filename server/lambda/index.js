@@ -20,7 +20,7 @@ var handlers = {
     ,
 
     'StartMeeting': function() {
-        this.emit(':tell', 'starting a new meeting');
+        this.emit(':tell', 'starting a new meeting '+this.event.request.intent.slots.meetingName.value);
     },
 
     'AddParticipant': function() {

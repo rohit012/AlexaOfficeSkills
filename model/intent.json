@@ -1,24 +1,6 @@
 {
   "intents": [
     {
-      "intent": "TestIntent"
-    },
-    {
-      "intent": "MyIntent"
-    },
-    {
-      "intent": "AMAZON.PauseIntent"
-    },
-    {
-      "intent": "AMAZON.ResumeIntent"
-    },
-    {
-      "intent": "StartMeeting"
-    },
-    {
-      "intent": "GetNewFactIntent"
-    },
-    {
       "slots": [
         {
           "name": "participantname",
